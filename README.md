@@ -1,2 +1,2 @@
 # JSDevs
-agora vai
+ Portfólio de apresentação da equipe
