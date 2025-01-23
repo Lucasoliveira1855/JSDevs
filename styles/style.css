@@ -4,6 +4,11 @@
     margin: 0;
 }
 
+.container{
+  height: 109vh;
+  width: 100%;
+}
+
 /*.color1 {color: #000000;}
 .color2 {color: #1e2125;}
 .color3 {color: #474d55;}
