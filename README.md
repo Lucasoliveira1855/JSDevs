@@ -1,3 +1,4 @@
 # JSDevs
- Portfólio de apresentação da equipe e 
- alterções de código
+Wellington 
+Portfólio de apresentação da equipe 
+
