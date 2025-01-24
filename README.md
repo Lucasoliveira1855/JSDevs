@@ -1,8 +1,7 @@
 # JSDevs
 
  Portfólio de apresentação da equipe e 
- alterções de código
- alterei o codigo para teste 2
+ Falta estilizar o botão e melhorar a navbar em geral
  
 
 Wellington 
