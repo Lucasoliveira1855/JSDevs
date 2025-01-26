@@ -6,36 +6,46 @@ portifolio em grupo
 ## Descrição
 esse e um portifolio onde vamos apresentar quem somos e oque fazemos na area de desenvolvimento , nesse portifolio vai estar nossos projetos tecnologias, limguagens que usamos e futuras staks , somos uma equipe dedicada e focada em crescer e aprender mais com esse incrivel mundo da tecnologia,  
 
-## Estrutura
-/JSDevs
-├── index.html
+## Estrutura do Projeto
+
+Este é o layout das pastas e arquivos do projeto:
+
+```plaintext
+/
+├── index.html          # Página principal do site
 ├── styles/
-│   └── style.css
+│   └── style.css       # Arquivo de estilizacao(CSS)
 ├── assets/
 │   └── img/
-│       └── logo.jpg
+│       └── logo.jpg    # Imagem do logotipo da equipe
 ├── pags/
 │   ├── about/
-│   │   └── about.html
+│   │   └── about.html  # Página "Sobre Nós"
 │   ├── projects/
-│   │   └── projects.html
+│   │   └── projects.html  # Página "Projetos"
 │   └── contacts/
-│       └── contacts.html
+│       └── contacts.html  # Página "Contatos"
+
 
 
 ## Tecnologias utilizadas
 - HTML
 - CSS
-- (javascript futuramente)
+- (Javascript Futuramente)
 
 ## Como rodar
-se tem interesse em da run nesse prototipo de projeto faca o seguinte, va no seu diretorio de preferencia abra o cmd ou bash e execute :
+Se tem interesse em da Run nesse prototipo de projeto faca o seguinte, va no seu diretorio de preferencia abra o cmd ou bash e execute :
 
-git clone [text](https://github.com/Lucasoliveira1855/JSDevs.git)
+git clone https://github.com/Lucasoliveira1855/JSDevs.git
 
-cd /JSDevs
+- Entre no diretorio
 
-ls/dir
+`cd /JSDevs`
+
+- Se seu Sistema for Win use o comando 
+`dir` 
+- Se seu Sistema for Linux use o comando 
+`ls`
 
 ## Autor
-- equipe DevFull.
+- Equipe:  DevFull.
