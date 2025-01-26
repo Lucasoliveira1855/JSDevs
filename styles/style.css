@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+body{
+  margin: 2px;
+  font-family: Roboto, sans-serif;
+}
 
 :root {
 --color1:#000000;
@@ -25,3 +29,64 @@
 .color3 {color: #474d55;}
 .color4 {color: #757f8b;}
 .color5 {color: #a8b7c7;
+*/
+
+header{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.navigation{
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.LogoImage{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+ul{
+  display: flex;
+  position: relative;
+  left: 240px;
+}
+li{
+  list-style:none;
+  padding-left: 70px;
+}
+a{
+  text-decoration: none;
+  color: #474d55;
+  padding: 7px 15px ;
+  position: relative;
+  display: inline-block;
+}
+
+a::after{
+  content:"";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+
+a:hover::after{
+  width: 100%;
+  cursor:pointer;
+}
+
+.buttonLink{
+  padding: 10px 19px 10px 19px;
+  border-radius: 6px;
+  outline: greenyellow;
+  border: none;
+  font-weight:500;
+  cursor: pointer;
+}
