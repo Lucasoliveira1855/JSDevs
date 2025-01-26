@@ -1,7 +1,11 @@
 # DevFull
 
+
 # Nome do Projeto
 portifolio em grupo
+=======
+ Portfólio de apresentação da equipe e 
+ Falta estilizar o botão e melhorar a navbar em geral
 
 ## Descrição
 Este é um portfólio criado para apresentar quem somos e o que fazemos na área de desenvolvimento. Aqui, você encontrará informações sobre nossos projetos, tecnologias utilizadas, linguagens de programação que dominamos e as stacks que planejamos explorar no futuro. Somos uma equipe dedicada, apaixonada por tecnologia, sempre focada em crescer e aprender mais neste incrível mundo da inovação e tecnologia.
