@@ -26,8 +26,8 @@ Este é um portfólio criado para apresentar quem somos e o que fazemos na área
 ```
 
 ## Tecnologias utilizadas
-- ![Html5](./logosTech/logo-html5.svg)
-- ![CSS3](./logosTech/logo-css3.svg)
+- Html5 <img width="100" height="100" src="./logosTech/logo-html5.svg">
+- CSS3  <img width="100" height="100" src="./logosTech/logo-css3.svg">
 - (Javascript Futuramente)
 
 ## Como rodar
