@@ -26,8 +26,8 @@ Este é um portfólio criado para apresentar quem somos e o que fazemos na área
 ```
 
 ## Tecnologias utilizadas
-- HTML <ion-icon name="logo-html5"></ion-icon>
-- CSS  <ion-icon name="logo-css3"></ion-icon>
+- ![Html5](./logosTech/logo-html5.svg)
+- ![CSS3](./logosTech/logo-css3.svg)
 - (Javascript Futuramente)
 
 ## Como rodar
