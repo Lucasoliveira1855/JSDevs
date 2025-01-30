@@ -24,12 +24,6 @@ body{
   height: 100vh;
   width: 100%;
 }
-/*.color1 {color: #000000;}
-.color2 {color: #1e2125;}
-.color3 {color: #474d55;}
-.color4 {color: #757f8b;}
-.color5 {color: #a8b7c7;
-*/
 
 header{
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -82,7 +76,7 @@ a:hover::after{
   cursor:pointer;
 }
 
-.buttonLink{
+.buttonLink {
   padding: 10px 19px 10px 19px;
   border-radius: 6px;
   outline: greenyellow;
