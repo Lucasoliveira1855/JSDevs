@@ -10,6 +10,7 @@
 body{
   font-family: Roboto, sans-serif;
   background-color: var(--color5);
+  overflow: hidden;
 }
 
 :root {
@@ -208,14 +209,28 @@ a:hover::after{
   transition: transform 0.5s ease;
 }
 
+.carrossel-card{
+  flex: 0 0 30%;
+  margin: 0 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
 .carrossel img {
   width: 100%;
   height: auto;  
   flex-shrink: 0; 
 }
 
+p{
+  margin-top: 10px;
+  font: var(--font);
+  font-size: 16px;
+  color: #fff;
+}
+
 button {
-  position: absolute;
+  position: fixed;
   top: 50%;
   transform: translateY(-50%);
   background-color: rgba(0, 0, 0, 0.5);
@@ -224,7 +239,11 @@ button {
   font-size: 24px;
   padding: 10px;
   cursor: pointer;
-  z-index: 10;
+  z-index: 1;
+}
+
+button:hover{
+  background-color: var(--color3);
 }
 
 button.prev {
