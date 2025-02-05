@@ -8,7 +8,6 @@
 }
 
 body{
-  margin: 2px;
   font-family: Roboto, sans-serif;
   background-color: var(--color5);
 }
@@ -132,6 +131,7 @@ a:hover::after{
 .link:hover{
   color: #ccc;
 }
+
 .carrossel-image {
   width: 20%;
   height: 20%;
@@ -184,4 +184,44 @@ a:hover::after{
   .buttonLink {
       padding: 10px;
   }
+}
+
+.carrossel-container{
+  position: relative;
+  width: 80%;
+  max-width: 600px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+.carrossel{
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carrossel img {
+  width: 100%;
+  height: auto;  
+  flex-shrink: 0; 
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+button.prev {
+  left: 10px;
+}
+
+button.next {
+  right: 10px;
 }
