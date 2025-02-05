@@ -162,12 +162,20 @@ a:hover::after{
       height: 50px;
   }
 
+  .DV_sublinks{
+    background-color: var(--color3);
+  }
+
   .DV_sublinks nav ul {
       flex-direction: column;
   }
 
   .DV_sublinks li {
       margin: 10px 0;
+  }
+
+  .DV_sublinks li a{
+    color: white;
   }
 }
 
