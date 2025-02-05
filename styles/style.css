@@ -1,14 +1,16 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body{
   margin: 2px;
   font-family: Roboto, sans-serif;
+  background-color: var(--color5);
 }
 
 :root {
@@ -21,8 +23,12 @@ body{
 }
 
 .container{
+  display: flex;
   height: 100vh;
   width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--color5);
 }
 
 header{
@@ -30,6 +36,7 @@ header{
 }
 
 .navigation{
+  background-color: var(--color3);
   padding-left: 25px;
   padding-right: 25px;
   display: flex;
@@ -83,10 +90,12 @@ a:hover::after{
   border: none;
   font-weight:500;
   cursor: pointer;
-=======
-.navbar{
-  background-color: var(--color2);
-  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  background-color: var(--color4);
+  color:#fff;
   text-align: center;
   padding: 1em;
   border-bottom: 1px solid #fff;
@@ -116,5 +125,57 @@ a:hover::after{
 
 .link:hover{
   color: #ccc;
->>>>
+}
+.carrossel-image {
+  width: 20%;
+  height: 20%;
+}
+
+@media (max-width: 768px) {
+  .navigation {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 15px;
+  }
+
+  .navbar-nav {
+      flex-direction: column;
+  }
+
+  .navbar-item {
+      margin: 10px 0;
+  }
+
+  .buttonLink {
+      width: 100%;
+      padding: 12px;
+  }
+
+  .LogoImage {
+      width: 50px;
+      height: 50px;
+  }
+
+  .DV_sublinks nav ul {
+      flex-direction: column;
+  }
+
+  .DV_sublinks li {
+      margin: 10px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .LogoImage {
+      width: 40px;
+      height: 40px;
+  }
+
+  .navbar-item {
+      margin: 5px 0;
+  }
+
+  .buttonLink {
+      padding: 10px;
+  }
 }
